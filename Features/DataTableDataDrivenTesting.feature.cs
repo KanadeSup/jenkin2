@@ -111,9 +111,7 @@ this.ScenarioInitialize(scenarioInfo);
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                             "searchKey"});
                 table1.AddRow(new string[] {
-                            "specflow by testers talk"});
-                table1.AddRow(new string[] {
-                            "selenium by testers talk"});
+                            "the first take"});
 #line 9
  testRunner.Then("Enter search keyword in Youtube", ((string)(null)), table1, "Then ");
 #line hidden

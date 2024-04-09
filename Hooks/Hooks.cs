@@ -4,7 +4,7 @@ using BoDi;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using SpecFlowBDDAutomationFramework.Utility;
-
+using OpenQA.Selenium.Remote;
 namespace SpecFlowBDDAutomationFramework.Hooks
 {
     [Binding]
@@ -54,7 +54,7 @@ namespace SpecFlowBDDAutomationFramework.Hooks
         public void FirstBeforeScenario(ScenarioContext scenarioContext)
         {
             Console.WriteLine("Running before scenario...");
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver =  new RemoteWebDriver(new Uri("http://192.168.120.20:4444"), new ChromeOptions());;
             driver.Manage().Window.Maximize();
 
             _container.RegisterInstanceAs<IWebDriver>(driver);

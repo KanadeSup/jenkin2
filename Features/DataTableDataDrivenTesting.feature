@@ -8,5 +8,4 @@ Scenario:  DataTable Data Driven Testing
 	When Enter the URL
 	Then Enter search keyword in Youtube
 	| searchKey                |
-	| specflow by testers talk |
-	| selenium by testers talk |
+	| the first take				|
