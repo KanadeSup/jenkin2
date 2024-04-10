@@ -1,8 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/home/Kanade/.nuget/packages/aspectinjector/2.8.1/lib/netstandard2.0/AspectInjector.Broker.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f3b8b13d_002D819a_002D44be_002D9b35_002Db153c81f6ed5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddTwoNumbers" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::E10F6A73-9392-463B-9B54-ACC903F93745::net6.0::SpecFlowBDDAutomationFramework.Features.CalculatorFeature.AddTwoNumbers&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::E10F6A73-9392-463B-9B54-ACC903F93745::net6.0::SpecFlowBDDAutomationFramework.Features.DataDrivenTestingFeature.DataDrivenTesting&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::E10F6A73-9392-463B-9B54-ACC903F93745::net6.0::SpecFlowBDDAutomationFramework.Features.ExamplesDataDrivenTestingFeature.ExamplesDataDrivenTesting&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::E10F6A73-9392-463B-9B54-ACC903F93745::net6.0::SpecFlowBDDAutomationFramework.Features.DataTableDataDrivenTestingFeature.DataTableDataDrivenTesting&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
