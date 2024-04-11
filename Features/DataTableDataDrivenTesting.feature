@@ -8,4 +8,4 @@ Scenario:  DataTable Data Driven Testing
 	When Enter the URL
 	Then Enter search keyword in Youtube
 	| searchKey                |
-	| the first take			|
+	| the first take				|
