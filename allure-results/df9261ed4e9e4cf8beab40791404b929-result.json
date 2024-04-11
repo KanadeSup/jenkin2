@@ -1,0 +1,109 @@
+{
+  "uuid": "a5c6bd4b-e5bc-4b08-8a70-94a6835fa6d0",
+  "historyId": "17d9f0b52bd5dd7ab2047153034a0d21",
+  "testCaseId": "3241c84c377bfa6fb8f7037b2678f04e",
+  "fullName": "SpecFlowBDDAutomationFramework/Features/PageObjectModel/PageObjectModel",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "KanadePC"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "PageObjectModel"
+    },
+    {
+      "name": "tag",
+      "value": "Task6"
+    }
+  ],
+  "links": [],
+  "name": "PageObjectModel",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Interface cannot be resolved: OpenQA.Selenium.IWebDriver",
+    "trace": "BoDi.ObjectContainerException: Interface cannot be resolved: OpenQA.Selenium.IWebDriver\n   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()\n   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)\n   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\n   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\n   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, String name)\n   at BoDi.ObjectContainer.Resolve[T](String name)\n   at BoDi.ObjectContainer.Resolve[T]()\n   at SpecFlowBDDAutomationFramework.Hooks.Hooks.AfterScenario() in /home/Kanade/RiderProjects/SpecFlowBDDAutomationFramework/Hooks/Hooks.cs:line 70\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.CallBaseInvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.MakeFixtureFromScenarioHook(Action`2 callLastHook, Action`1 startFixture, IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, HookBinding hook)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  Enter the youtube URL",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1712820013512,
+      "stop": 1712820013517
+    },
+    {
+      "name": "When  Search for the testers talk in youtube",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1712820013520,
+      "stop": 1712820013520
+    },
+    {
+      "name": "And  Navigate to channel",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1712820013520,
+      "stop": 1712820013520
+    },
+    {
+      "name": "Then  Verify title of the page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1712820013520,
+      "stop": 1712820013520
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1712820013504,
+  "stop": 1712820013525
+}
