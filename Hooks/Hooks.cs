@@ -55,7 +55,8 @@ namespace SpecFlowBDDAutomationFramework.Hooks
         public void FirstBeforeScenario(ScenarioContext scenarioContext)
         {
             Console.WriteLine("Running before scenario...");
-            IWebDriver driver =  new RemoteWebDriver(new Uri("http://selenium-hub:4444/wd/hub"), new FirefoxOptions());
+            // IWebDriver driver =  new RemoteWebDriver(new Uri("http://192.168.120.20:4444/wd/hub"), new FirefoxOptions());
+            IWebDriver driver =  new RemoteWebDriver(new Uri("http://hub:4444/wd/hub"), new FirefoxOptions());
             // IWebDriver driver =  new ChromeDriver();
             driver.Manage().Window.Maximize();
 
